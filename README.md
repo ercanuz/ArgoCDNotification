@@ -12,7 +12,7 @@
 
 **Çözüm:**
 
-1. Bulunulan bölgeye uygun timezone bilgisini içeren bir [ConfigMap] openshift-gitops projesi altında yaratılır.(https://github.com/ercanuz/ArgoCDNotification/blob/main/timezone-config-map.yaml) yaratılır.
+1. Bulunulan bölgeye uygun timezone bilgisini içeren bir [ConfigMap] openshift-gitops projesi altında yaratılır.(https://github.com/ercanuz/ArgoCDNotification/blob/main/timezone-config-map.yaml)
 
 2. "openshift-gitops-notifications-controller" deploymenta yaratılan config map [environment](https://github.com/ercanuz/ArgoCDNotification/blob/main/argocd-notification-controller-deployment.jpg) olarak eklenir.
    
