@@ -20,6 +20,6 @@
 3.  Notifikasyon templatelerinde ilgili time alanı düzenlenir.
     
 
-Örn: {{.app.status.changedAt | date "2006-02-01 15:04:05"}}
+Örn: {{.app.status.changedAt | date "01-02-2006 15:04:05"}}
 
 4.  openshift-gitops-notifications-controller podları restart edilir.
