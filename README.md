@@ -1,6 +1,6 @@
-ArgoCD Notifications TimeZone Güncellenmesi
+**ArgoCD Notifications TimeZone Güncellenmesi**
 
-Sorun ve Özet:
+**Sorun ve Özet:**
 
 1. Openshift GitOps operatörü kurulduktan sonra ArgoCD instance yaratılmakta ve ArgoCD create, deploy, sync vb. olayları mail, webhook, slack gibi kanallarla notifikasyon bildirimleri yapılabilmektedir.
    
@@ -10,7 +10,7 @@ Sorun ve Özet:
    
 7. Default olarak notifikasyonlar "ZULU" time zone da gönderilmektedir. 
 
-Çözüm:
+**Çözüm:**
 
 1. Bulunulan bölgeye uygun timezone bilgisini içeren bir [ConfigMap] openshift-gitops projesi altında yaratılır.(https://github.com/ercanuz/ArgoCDNotification/blob/main/timezone-config-map.yaml) yaratılır.
 
